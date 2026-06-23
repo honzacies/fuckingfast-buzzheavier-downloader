@@ -1,5 +1,7 @@
 # fuckingfast-extractor
 
+<img width="1112" height="628" alt="image" src="https://github.com/user-attachments/assets/10533a3b-bd2c-4f0f-8bbc-51bc176e1f08" />
+
 A tiny CLI that batch-downloads files from **fuckingfast.co** (and **buzzheavier.com**) links — built mainly for grabbing multi-part [FitGirl repacks](https://fitgirl-repacks.site/) without having to open every link and click through manually.
 
 You paste a list of links into `list.txt`, run one command, and it scrapes the real download URL behind each page and pulls the files into a `downloads/` folder with a live progress bar.
