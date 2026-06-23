@@ -14,6 +14,7 @@ You paste a list of links into `list.txt`, run one command, and it scrapes the r
 - **Live progress bar** — shows percentage, downloaded / total size (auto-formatted as KB/MB/GB), speed, and estimated time remaining.
 - **Resume-friendly history** — finished downloads are recorded in `downloads/history.json` and skipped on the next run.
 - **Zero dependencies** — uses only the Node.js standard library (`http`, `https`, `http2`, `zlib`, `fs`, …).
+- **Cloudflare bypass for fuckingfast** — yes, since fuckingfast introduced cloudflare, I had to fix the tool and bypass it.
 
 ## Requirements
 
