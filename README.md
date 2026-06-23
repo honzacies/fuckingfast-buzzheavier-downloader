@@ -8,6 +8,8 @@ You paste a list of links into `list.txt`, run one command, and it scrapes the r
 
 > **Disclaimer:** This is a personal automation tool provided for educational purposes. Only download content you have the legal right to access. You are responsible for how you use it.
 
+Note: the code is very messy since it was written pretty fast.
+
 ## Features
 
 - **Batch downloads** — one URL per line in `list.txt`, processed top to bottom.
