@@ -303,7 +303,6 @@ async function main() {
             process.stdout.write(`${STYLES.blue}${STYLES.dim}Looking at: ${new URL(pageUrl).hostname}...${STYLES.reset}\n`);
             if (pageUrl.includes("fuckingfast.co")) {
                 const html = await fetchText(pageUrl);
-                console.log(html)
                 const match = html.match(/window\.open\(['"](.+?)['"]\)/);
                 process.stdout.write(`${STYLES.blue}${STYLES.dim}Scraped the URL: ${match[1] || ''}\n`)
 
