@@ -1,0 +1,8 @@
+{
+  "name": "fuckingfast-extractor",
+  "version": "1.0.0",
+  "description": "A simple fuckingfast.co extractor for downloading fitgirl repacks automatically without interacting with the links manually.",
+  "main": "index.ts",
+  "author": "honzacies",
+  "license": "MIT"
+}
